@@ -19,6 +19,7 @@ def load_data(filename):
     y : ndarray
         the labels of each sample.
     """
+
     data = read_csv(filename)
     z = np.array(data)
     y = z[:, 0]
